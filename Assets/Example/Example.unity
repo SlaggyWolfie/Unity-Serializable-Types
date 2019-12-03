@@ -286,18 +286,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8583dabaa415b6b48a5990ede58e4166, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type:
+    assemblyQualifiedName: 
   types:
   - assemblyQualifiedName: System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral,
       PublicKeyToken=b77a5c561934e089
   - assemblyQualifiedName: System.Single, mscorlib, Version=2.0.0.0, Culture=neutral,
       PublicKeyToken=b77a5c561934e089
-  - assemblyQualifiedName: 
+  - assemblyQualifiedName: UnityScript.Lang.Array, UnityScript.Lang, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   - assemblyQualifiedName: 
   - assemblyQualifiedName: UnityEngine.MonoBehaviour, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   usableType:
     assemblyQualifiedName: Usable, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
+  usableTypes: []
+  monoBehaviourTypes: []
 --- !u!4 &1395020914
 Transform:
   m_ObjectHideFlags: 0
